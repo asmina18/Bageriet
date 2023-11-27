@@ -1,0 +1,70 @@
+@use "./variables.scss" as *;
+
+.slider {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        bottom: 200%;
+        gap: 1rem;
+
+        span {
+            width: $spacing-medium;
+            height: $spacing-medium;
+            border-radius: 50%;
+            background-color: $color-white;
+        }
+
+        span::after {
+            content: " ";
+        }
+    }
+
+    div {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 12fr 1fr;
+        align-items: center;
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: $color-white;
+            font-family: "Lobster Two", sans-serif;
+            transform: skew(-12deg, 0);
+
+            // transform: skew(20deg, 1deg);       
+            // text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            background-color: inherit;
+            visibility: hidden;
+            width: 80%;
+            height: 80%;
+
+            svg {
+                visibility: visible;
+                color: $color-accent-gray;
+                width: 100%;
+                height: 100%;
+                // opacity: 0;
+            }
+
+        }
+    }
+}

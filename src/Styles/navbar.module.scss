@@ -1,0 +1,35 @@
+@use "./variables" as *;
+
+.navBar {
+  width: 100%;
+  background-color: $color-nav-blue;
+
+  ul {
+    width: 40%;
+    margin: auto;
+    height: 70px;
+    display: grid;
+    gap: $spacing-medium;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+    li {
+      list-style-type: none;
+
+      a {
+        color: $color-white;
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+
+      h4 {
+        font-size: 2.4rem;
+        color: $color-white;
+        font-family: "Lobster Two", sans-serif;
+        transform: skew(-12deg, 0);
+
+      }
+    }
+  }
+}
