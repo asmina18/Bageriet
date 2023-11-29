@@ -1,11 +1,11 @@
 @use "./variables.scss" as *;
 
-.slider {
-    display: grid;
+.HeaderSlider {
+    // display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
-    position: relative;
+    // position: relative;
 
     img {
         width: 100%;

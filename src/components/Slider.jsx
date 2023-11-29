@@ -45,7 +45,7 @@ export function Slider() {
 
 
   return (
-    <header className={style.slider}>
+    <header className={style.HeaderSlider}>
       <div>
         {/* Knap til at gå til forrige slide */}
         <button onClick={previousSlide}>
@@ -78,6 +78,7 @@ export function Slider() {
           />
         ))}
       </section>
+    
     </header>
   );
 }

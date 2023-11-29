@@ -1,5 +1,11 @@
 export function ProductPage () {
    return (
-       <div>ProductPage</div>
+       <div>ProductPage
+
+
+
+
+
+       </div>
    )
 }

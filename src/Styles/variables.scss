@@ -3,14 +3,19 @@ $color-main-gray: rgb(51, 51, 51);
 $color-dark-gray: rgb(37, 37, 37);      
 $color-light-gray: rgb(96, 118, 132); 
 $color-accent-gray: rgb(188, 200, 212); 
-$color-nav-blue: rgb(106, 140, 147);
+$color-nav-blue:#58748D;
  
 
 // Spacing Variables
 $spacing-small:8px;
 $spacing-medium:16px;
 $spacing-large:32px;
+$transform: skew(-12deg, 0);
 
 // Property color
-$color-white: rgb(255, 255, 255),; 
+$color-white: rgb(255, 255, 255); 
+//Font
+$font-family: "Lobster Two", sans-serif;
+
+
 

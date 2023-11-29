@@ -5,7 +5,7 @@ import { ContactPage } from "./pages/ContactPage";
 import { ProductPage } from "./pages/ProductPage";
 import { ProductDetailsPage } from "./pages/ProductDetailsPage";
 import {LoginPage} from './pages/LoginPage'
-import { Layout } from "./Layout/Layout"
+import { Layout } from "./Layout/MainLayout"
 
 
 
@@ -15,7 +15,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          
           <Route index element={<FrontPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/productDetails" element={<ProductDetailsPage />} />
