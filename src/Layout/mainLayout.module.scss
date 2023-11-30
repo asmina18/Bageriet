@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1280px;
-  
+
 }
 
 body {
@@ -15,8 +14,8 @@ body {
 }
 
 .mainLayout {
-  box-sizing: border-box;
   border: 2px solid rgb(72, 255, 0);
+  box-sizing: border-box;
   margin: auto;
   display: grid;
 

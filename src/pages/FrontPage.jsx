@@ -1,4 +1,4 @@
-import { Neyheder } from "../components/Nyheder";
+import { Nyheder } from "../components/Nyheder";
 import { Nyhedsbrev } from "../components/Nyhedsbrev";
 import { Slider } from "../components/Slider";
 
@@ -7,9 +7,9 @@ export function FrontPage() {
 
       <>
       <div>
-         
+   
          <Slider />
-         <Neyheder/>
+         <Nyheder/>
          <Nyhedsbrev/>
    
       </div>
