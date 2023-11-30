@@ -22,6 +22,7 @@ export function ContactPage() {
           <button>Send</button>
         </form>
       </div>
+      {/* ne zabudt dobavit reseze  v textarie  */}
       <div>
         <ul>
           <li>address: Øster uttrupvej 1 9200 Aalborg </li>

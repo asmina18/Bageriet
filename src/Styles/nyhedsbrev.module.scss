@@ -1,17 +1,48 @@
 @use "./variables" as *;
 
 .divContainer {
-   background-color: red;
-   width: 100%;
+   // background-color: red;
+   width: 50%;
+   margin-right: 3rem;
    position: relative;
-   margin-bottom: 3rem;
+   bottom: 20rem;
+   margin: auto;
+   margin-bottom: 2rem;
 
-   img{
+
+   h2,
+   p {
+      text-align: justify;
+      color: $color-white;
+
+   }
+
+}
+
+.Image {
    width: 100%;
+}
+
+.form {
+
+   margin: auto;
+   width: 50%;
+   position: relative;
+   bottom: 20rem;
+input{
+
+   display: inline-block;
+
+
+
+   button{
+
+color: $color-nav-blue;
+   }
+}
+   
+   svg{
+      background-color: aqua;
    }
    
 }
-.divImage {
-
- }
- 

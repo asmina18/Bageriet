@@ -78,7 +78,7 @@ export function Slider() {
           />
         ))}
       </section>
-    
+
     </header>
   );
 }
