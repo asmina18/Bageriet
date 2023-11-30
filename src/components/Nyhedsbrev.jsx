@@ -29,7 +29,7 @@ export function Nyhedsbrev() {
  
   
    return (
-    <div>
+    <div className={style.FormCantainer}>
       <form className={style.form} onSubmit={handleSubmit} noValidate>
         {/* E-mailindtastningsfelt med værdi styret af state og onchange-håndtering */}
         <MdOutlineEmail/>
