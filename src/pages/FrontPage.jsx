@@ -11,8 +11,7 @@ export function FrontPage() {
          <Slider />
          <Nyheder/>
          <Nyhedsbrev/>
-   
-      </div>
+        </div>
       </>
       
    )

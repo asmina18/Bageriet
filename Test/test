@@ -18,11 +18,11 @@ export function Nyhedsbrev() {
        // Hvis e-mailen ikke er gyldig, sættes valideringsstatus til falsk, og der vises en alert
        setIsEmailValid(false);
        
-       alert('Skriv din gyldige e-mailadresse');
+       alert('Skriv din gyldige e-mailadresse ❌');
      } else {
        // Hvis e-mailen er gyldig, sættes valideringsstatus til sand, og der vises en tak-alert
        setIsEmailValid(true);
-       alert(`Tak for din tilmelding med ${email}`);
+       alert(`Tak for din tilmelding med🌟 ${email}`);
        // Nulstil e-mailfeltet
        setEmail('');
      }

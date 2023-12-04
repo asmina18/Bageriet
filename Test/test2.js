@@ -48,7 +48,7 @@ export function Nyheder() {
    const latestArticles = sortedData?.slice(0, 3);
 
    // Log den nuværende tilstand af data til konsollen
-   // console.log(data);
+   console.log(data);
 
    // Rendér komponentens JSX
    return (
